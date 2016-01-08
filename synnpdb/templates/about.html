@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block page_title %}SynNP - About{% endblock %}
+
+{% block content %}
+<!-- This code is taken from http://getbootstrap.com/examples/jumbotron/ -->
+<div class="jumbotron">
+  <div class="container">
+    <h1>The SynNP project</h1>
+  </div>
+</div>
+<div class="container">
+<div class="md_content bloglike">
+
+## Bla bla bla bla
+
+Anti-infective drug discovery is limited in part by extant chemical libraries, and in part by the cost and throughput of conventional screen formats. Many effective drugs, including most antibiotics, are directly derived from microbial natural products (NPs), which encompass an enormous structural diversity with privileged biological activities. However, the isolation, screening, deconvolution and large-scale synthesis of natural products is prohibitively time-consuming and costly. To exploit the vast potential of NP bioactive chemical space, we propose an innovative technology platform for the generation and coupled selection of synthetic NP-like molecules, termed SynNPs.
+
+We will express combinations of thousands of refactored natural product biosynthetic enzymes in libraries of yeast artificial chromosomes (YACs) technology to produce many millions to billions of genetically encoded SynNPs. These SynNP libraries will be selected in situ for anti-pathogen activity without any need for costly extract preparation or expensive roboticized assays. In a targeted approach, pathogen or host proteins essential for disease mechanism will be formatted in positive selection assays by simple mating of a counter-selectable reporter strain for the target to the SynNP library, followed by isolation of clones that produce active SynNPs and allow growth. In a parallel cell-based approach, yeast SynNP libraries will be co-cultured with bacterial pathogens to identify SynNP clones that inhibit pathogen growth and viability.
+
+Once isolated, SynNP activities will be further optimized through secondary screens of focused combinatorial libraries designed to extensively modify the specific SynNP scaffold and thereby develop an in vivo structure-activity profile with rapid hit-to-lead development potential. Notably, unlike traditional NPs, the potential emergence of resistance will be mitigated because a wide diversity of novel SynNPs will be readily produced in yeast for which no preexisting resistance has been evolved. In this proof-of-concept pilot project, the SynNP platform will be used to generate and select for novel natural product-like compounds active against Mycobacterium tuberculosis.
+
+We emphasize that we do not intend to merely reconstruct the known biosynthesis routes for particular NP compounds, but instead aim to create a vast diversity of NP-like compounds never before seen in nature. The SynNP platform is intrinsically flexible and can in principle be applied to any class of infectious pathogen. This pilot project will establish the SynNP synthetic chemical genetics and associated screening platforms as a novel route to low-cost diverse chemical matter that is uniquely suited to anti-infective drug discovery.
+
+</div>
+</div>
+
+
+<script>
+var divs = document.getElementsByClassName("md_content")
+console.log(divs.length)
+for (i=0; i<divs.length; i++){
+  div= divs[i]
+  console.log(div)
+  div.innerHTML = marked(div.innerHTML)
+}
+console.log(divs)
+</script>
+
+{% endblock %}

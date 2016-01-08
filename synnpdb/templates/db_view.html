@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+
+{% block page_title %}SynNP - DB Plan{% endblock %}
+
+{% block content %}
+<!-- This code is taken from http://getbootstrap.com/examples/jumbotron/ -->
+
+<div class = "container">
+<h1>Plan of the SynNP database</h1>
+<p>Hover any item for more details.</p>
+<iframe class="db_view_iframe" src="/plate"></iframe>
+</div>
+
+{% endblock %}

@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* =============================================================================
+   App specific CSS file.
+
+   This is usually where the site/app's CSS specific rules are setup. Note that you could
+   do exactly the same using less by adding a '@import "app.less";' at the end of
+   css/less/bootstrap.less file.
+
+   ========================================================================== */
+
+
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.unilogos {
+    position: relative;
+    max-width: 70%;
+    width: 600px;
+  margin-top: 3em;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, 0%);
+  vertical-align: center;
+}
+
+
+.jumbotron {
+    font-family: "Raleway", "Helvetica Neue";
+    background-image: url("../img/jumbotron3.png");
+    background-size: cover;
+
+}
+
+
+.btn-more {
+    background-color: #70981a;
+    box-shadow: 0 3px 0 0 #86b51f;
+    border: 1px #86b51f;
+}
+
+.btn-more:hover,
+.btn-more:focus,
+.btn-more:active {
+    background-color: #77a909;
+}
+
+
+.bloglike {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.bloglike p {
+  font-size: 18px;
+  }  
+
+.bloglike h1 {
+  font-size: 5em;
+  } 

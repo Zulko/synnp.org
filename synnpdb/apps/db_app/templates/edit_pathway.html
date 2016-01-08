@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+
+{% block page_title %}SynNP - Pathways{% endblock %}
+{% block content %}
+
+<form class="form-signin" method="POST" action="{% url 'django.contrib.auth.views.login' %}">
+
+      {% csrf_token %}
+
+
+
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="id_username" class="sr-only">User Name</label>
+        <input type="text" id="id_username" class="form-control" placeholder="User name" required autofocus name="username" />
+        <label for="id_password" class="sr-only">Password</label>
+        <input type="password" id="id_password" class="form-control" name="password" placeholder="Password" required />
+        <!--div class="checkbox">
+          <label>
+            <input type="checkbox" value="remember-me"> Remember me
+          </label>
+        </div-->
+        <input class="btn btn-lg btn-primary btn-block" type="submit" class="form-control" value="login" />
+        <input type="hidden" class="form-control" name="next" value="{{ next }}" />
+
+        {% if form.errors %}
+            <div class="alert alert-warning">
+                Your username and password didn't match. Please try again.
+            </div>
+        {% endif %}
+      </form>
+<div class="container">
+        <h3>Pathways</h3>
+    <table id="table"
+               data-toggle="table"
+
+               data-pagination="true"
+               data-sort-name="name"
+               data-search="true"
+               data-advanced-search="true"
+               data-id-table="idTable"
+               data-show-toggle="true"
+               data-show-columns="true"
+               data-mobile-responsive="true"
+               data-cookie="true"
+               data-show-export="true"
+               data-sort-order="desc"
+               data-url="{% static 'js/dummydata/test.js' %}"
+               >
+            <thead>
+            <tr>
+                <th data-field="id" data-sortable="true">Item ID</th>
+                <th data-field="name" data-sortable="true">Item Name</th>
+                <th data-field="price" data-sortable="true">Item Price</th>
+            </tr>
+            </thead>
+      </table>
+
+    <!--table id="table"
+           data-toggle="table"
+           data-toolbar="#toolbar"
+           data-search="true"
+           data-show-refresh="true"
+           data-show-toggle="true"
+           data-show-columns="true"
+           data-show-export="true"
+           data-detail-view="true"
+           data-detail-formatter="detailFormatter"
+           data-minimum-count-columns="2"
+           data-show-pagination-switch="true"
+           data-pagination="true"
+           data-id-field="id"
+           data-page-list="[10, 25, 50, 100, ALL]"
+           data-show-footer="false"
+           data-side-pagination="server"
+           data-url="{% static 'js/dummydata.js' %}"
+           data-response-handler="responseHandler">
+    </table-->
+</div>
+
+{% endblock %}

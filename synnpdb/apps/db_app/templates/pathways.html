@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+
+
+{% block page_title %}SynNP - Pathways{% endblock %}
+{% block content %}
+
+
+<div class="container">
+    <h3>Pathways</h3>
+
+
+    <table id="table"
+               data-toggle="table"
+
+               data-pagination="true"
+               data-sort-name="name"
+               data-search="true"
+               data-advanced-search="true"
+               data-id-table="idTable"
+               data-show-toggle="true"
+               data-detail-view="true"
+               data-show-columns="true"
+               data-mobile-responsive="true"
+               data-cookie="true"
+               data-show-export="true"
+               data-sort-order="desc"
+               data-url="{% static 'js/dummydata/test.js' %}"
+               >
+            <thead>
+            <tr>
+                <th data-field="id" data-sortable="true">Item ID</th>
+                <th data-field="name" data-sortable="true">Item Name</th>
+                <th data-field="price" data-sortable="true">Item Price</th>
+            </tr>
+            </thead>
+      </table>
+      <a href="/edit_pathway" class="btn btn-primary"> Add a new pathway </a>
+</div>
+
+
+
+{% endblock %}

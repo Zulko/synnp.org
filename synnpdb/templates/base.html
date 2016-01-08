@@ -1,0 +1,164 @@
+{% load compress %}
+{% load staticfiles %}
+
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+
+  <!-- Use the .htaccess and remove these lines to avoid edge case issues.
+       More info: h5bp.com/i/378 -->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <title>{% block page_title %}{{ _("SynNP") }}{% endblock %}</title>
+  <meta name="description" content="{% block meta_description %}{% endblock %}">
+  <meta name="author" content="{% block meta_author %}{% endblock %}">
+
+  <!-- Mobile viewport optimized: h5bp.com/viewport -->
+  <meta name="viewport" content="width=device-width">
+
+  {% block meta %}
+  {% endblock %}
+
+  {# use the CDN to get bootstrap css. can not be inside compress css block #}
+  {% block cdn_css %}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+
+
+
+  {# The awesome Bootstrap-table and its exports #}
+  <script src="{% static 'bootstrap-table/bootstrap-table.min.js' %}"></script>
+  <script src="{% static 'bootstrap-table/locale/bootstrap-table-en-US.min.js' %}"></script>
+  <script src="{% static 'bootstrap-table/extensions/export/bootstrap-table-export.js' %}"></script>
+  <script src="{% static 'bootstrap-table/extensions/mobile/bootstrap-table-mobile.js' %}"></script>
+  <script src="//rawgit.com/hhurz/tableExport.jquery.plugin/master/tableExport.js"></script>
+
+  <script src="{% static 'js/libs/marked.js' %}"></script>
+
+  {% endblock cdn_css %}
+
+  {% compress css %}
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+  {% block css %}{% endblock %}
+  {% endcompress %}
+  <!-- More ideas for your <head> here: h5bp.com/d/head-Tips -->
+
+  <!-- All JavaScript at the bottom, except this Modernizr build.
+       Modernizr enables HTML5 elements & feature detects for optimal performance.
+       Create your own custom Modernizr build: www.modernizr.com/download/ -->
+  {% compress js %}
+  <script src="{% static 'js/libs/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
+  {% endcompress %}
+</head>
+<body class="{% block body_class %}{% endblock %}" {% block body_attributes %}{% endblock %}>
+{% block body %}
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6.
+       chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7]>
+    <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+  <![endif]-->
+  <header>
+    {% block header %}{% endblock %}
+  </header>
+
+  <div role="main">
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">SynNP</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Navigate<span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="/compounds/">Compounds</a></li>
+            <li><a href="/pathways/">Pathways</a></li>
+            <li><a href="/genes/">Genes</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/db_view">DB Plan</a></li>
+          </ul>
+        </li>
+      </ul>
+      <form class="navbar-form navbar-left" role="search">
+      <div class="input-group ">
+            <input type="text" class="  search-query form-control" placeholder="Search" />
+            <span class="input-group-btn">
+                <button class="btn btn-default" type="submit">
+                    <span class=" glyphicon glyphicon-search"></span>
+                </button>
+            </span>
+        </div>
+      </form>
+
+
+      <ul class="nav navbar-nav navbar-right">
+       {% if user.is_authenticated %}
+        <li><a>Logged in as {{ user }}</a></li>
+        <li><a href="{% url 'auth_logout' %}">Log out</a></li>
+        {% else %}
+        <li class="active"><a href="{% url 'auth_login' %}">Log in <span class="sr-only">(current)</span></a></li>
+        <li><a href="/accounts/register">Register</a></li>
+     {% endif %}
+      </ul>
+
+
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+    {% block content %}{% endblock %}
+  </div>
+
+  <footer>
+    {% block footer %}
+    <div class="container">
+      <hr>
+      <p>&copy; The SynNP contributors</p>
+      <p><a href="/admin">admin</a></p>
+    </div>
+    {% endblock footer %}
+  </footer>
+
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  {% block cdn_js %}
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="{{ STATIC_URL }}js/libs/jquery-2.1.1.min.js"><\/script>')</script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  {% endblock cdn_js %}
+
+  <!-- scripts concatenated and minified via django-compressor -->
+  {% compress js %}
+  {% block js %}
+  <script src="{% static 'js/main.js' %}"></script>
+  {% endblock js %}
+  {% endcompress %}
+  <!-- end scripts -->
+
+  <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
+       mathiasbynens.be/notes/async-analytics-snippet >
+  <script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    s.parentNode.insertBefore(g,s)}(document,'script'));
+  </script-->
+{% endblock %}
+</body>
+</html>
