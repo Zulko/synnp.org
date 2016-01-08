@@ -1,8 +1,5 @@
 import pandas as pd
 import os
-"python manage.py"
-
-print __file__
 
 from django.core.management.base import BaseCommand
 import synnpdb.apps.db_app as db_app
@@ -10,17 +7,16 @@ import synnpdb.apps.db_app as db_app
 
 def create_entry(model, **kwargs):
     obj = db_app.models.__dict__[model](**kwargs)
+    print obj
     obj.save()
     return obj
 
 
 class Command(BaseCommand):
-    args = '<foo bar ...>'
-    help = 'our help string comes here'
 
     def _create_entries(self):
         data_dir = os.path.join(os.path.dirname(__file__), "data")
-        data_file = os.path.join(data_dir, "20151112_genes_info_v2b_withM5.xlsx")
+        data_file = os.path.join(data_dir, "20151112_genes.xlsx")
         df = pd.read_excel(data_file)
         compounds_names = [
             name
@@ -74,4 +70,3 @@ class Command(BaseCommand):
 
     def handle(self, *args, **options):
         self._create_entries()
-

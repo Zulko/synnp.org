@@ -117,8 +117,10 @@ class CDS(models.Model):
     )
     optimized_for = models.ForeignKey(
         Organism,
-        help_text="Indicates the organism that the CDS was optimized for")
-    derived_from = models.ForeignKey('self')
+        help_text="Indicates the organism that the CDS was optimized for",
+        null=True)
+    derived_from = models.ForeignKey('self', null=True)
+
 
 class Oligo(models.Model):
     """An Oligo is a sequence that has been ordered to create a part
@@ -126,9 +128,15 @@ class Oligo(models.Model):
     name = models.CharField(
         u'Name', max_length=255
     )
+    sequence = models.CharField(
+        u'Type', max_length=50000,
+        validators=[dna_sequence_validator],
+        help_text='A valid ATGC sequence'
+    )
     target_part = models.ForeignKey(
         DNAPart,
-        help_text="The Part that will be obtained with this oligo"
+        help_text="The Part that will be obtained with this oligo",
+        null=True
     )
     ordering_batch = models.CharField(
         u'Name', max_length=255
@@ -145,7 +153,7 @@ class Compound(models.Model):
         u'Name', max_length=255,
         help_text="Common name of the compound."
     )
-    derived_from = models.ForeignKey('self')
+    derived_from = models.ForeignKey('self', null=True)
 
 
 class Pathway(models.Model):

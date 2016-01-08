@@ -14,16 +14,18 @@ Including another URLconf
     2. Import the include() function: from django.conf.urls import url, include
     3. Add a URL to urlpatterns:  url(r'^blog/', include(blog_urls))
 """
-from django.conf.urls import url, patterns, include
+from django.conf.urls import url, include
 from django.contrib import admin
 import synnpdb.views
-from django.contrib.auth import views as auth_views
+from django.contrib.staticfiles.storage import staticfiles_storage
+from django.views.generic.base import RedirectView
 from registration.backends.simple.views import RegistrationView
 import synnpdb
 admin.autodiscover()
 
+
 class MyRegistrationView(RegistrationView):
-    def get_success_url(self,request, user):
+    def get_success_url(self, request, user):
         return '/'
 
 
@@ -34,8 +36,14 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^accounts/', include('registration.backends.simple.urls')),
     url(r'^accounts/register/$', MyRegistrationView.as_view(),
-    	name='registration_register'),
+        name='registration_register'),
     url(r'^db_view/', synnpdb.views.db_view, name='db_view'),
     url(r'^plate/', include('django_spaghetti.urls')),
-    
+    url(
+        r'^favicon.ico$',
+        RedirectView.as_view(
+            url=staticfiles_storage.url('favicon.ico'),
+            permanent=False),
+        name="favicon"
+    )
 ]
