@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"max",
+				"max-width"
+			],
+			[
+				"end",
+				"endblock"
+			],
+			[
+				"Pa",
+				"Pathway	(models.py)"
+			],
+			[
 				"obj",
 				"objtype"
 			],
@@ -258,7 +270,7 @@
 			"file": "synnpdb/static/css/app.css",
 			"settings":
 			{
-				"buffer_size": 1175,
+				"buffer_size": 1307,
 				"line_ending": "Unix"
 			}
 		},
@@ -266,7 +278,15 @@
 			"file": "synnpdb/static/css/registration.css",
 			"settings":
 			{
-				"buffer_size": 769,
+				"buffer_size": 746,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/static/css/h5bp.css",
+			"settings":
+			{
+				"buffer_size": 10159,
 				"line_ending": "Unix"
 			}
 		},
@@ -274,7 +294,7 @@
 			"file": "synnpdb/templates/registration/registration_form.html",
 			"settings":
 			{
-				"buffer_size": 1252,
+				"buffer_size": 1572,
 				"line_ending": "Unix"
 			}
 		},
@@ -282,23 +302,47 @@
 			"file": "synnpdb/templates/registration/login.html",
 			"settings":
 			{
-				"buffer_size": 2632,
+				"buffer_size": 2978,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "synnpdb/templates/registration/logout.html",
+			"file": "synnpdb/settings/local_settings.py",
 			"settings":
 			{
-				"buffer_size": 392,
+				"buffer_size": 66,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "synnpdb/apps/db_app/urls.py",
+			"file": "install_requirements.sh",
 			"settings":
 			{
-				"buffer_size": 169,
+				"buffer_size": 1262,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/management/commands/fixtures.py",
+			"settings":
+			{
+				"buffer_size": 1873,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/models.py",
+			"settings":
+			{
+				"buffer_size": 7191,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/settings/base.py",
+			"settings":
+			{
+				"buffer_size": 4780,
 				"line_ending": "Unix"
 			}
 		},
@@ -306,7 +350,7 @@
 			"file": "synnpdb/urls.py",
 			"settings":
 			{
-				"buffer_size": 1564,
+				"buffer_size": 1806,
 				"line_ending": "Unix"
 			}
 		},
@@ -314,7 +358,95 @@
 			"file": "synnpdb/views.py",
 			"settings":
 			{
-				"buffer_size": 315,
+				"buffer_size": 317,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/views.py",
+			"settings":
+			{
+				"buffer_size": 1933,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/media/valentin/TOURO Mobile/valentin/SVGD_computer/2015_11_03/Python/Riffs/FXServer/app/bootstrap/bootstrap_ffmpeg.txt",
+			"settings":
+			{
+				"buffer_size": 330,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/table_base.html",
+			"settings":
+			{
+				"buffer_size": 1032,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/view_table.html",
+			"settings":
+			{
+				"buffer_size": 319,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/static/css/view_table.css",
+			"settings":
+			{
+				"buffer_size": 85,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/table_parts.html",
+			"settings":
+			{
+				"buffer_size": 456,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/table_compounds.html",
+			"settings":
+			{
+				"buffer_size": 384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/table_pathways.html",
+			"settings":
+			{
+				"buffer_size": 1002,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/templates/base.html",
+			"settings":
+			{
+				"buffer_size": 6782,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/demo_spreadsheet.html",
+			"settings":
+			{
+				"buffer_size": 1342,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/urls.py",
+			"settings":
+			{
+				"buffer_size": 356,
 				"line_ending": "Unix"
 			}
 		}
@@ -368,19 +500,30 @@
 	},
 	"expanded_folders":
 	[
-		"/home/valentin/Documents/EGF/SynNP/synnpdb",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/apps",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/apps/db_app",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/apps/db_app/templates",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/settings",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/static",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/static/css",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/templates",
-		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/templates/registration"
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/management",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/management/commands",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/settings",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/static",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/static/css",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/static/js",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/static/js/dummydata",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/registration"
 	],
 	"file_history":
 	[
+		"/home/valentin/Documents/EGF/ChristineMerrick/svgdMac/SARI/SARI/SARIapp/views.py",
+		"/home/valentin/Documents/EGF/ChristineMerrick/svgdMac/SARI/SARI/SARIapp/forms.py",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/table_pathways.html",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/urls.py",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/registration/logout.html",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/registration/login.html",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/base.html",
 		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/settings/base.py",
 		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/apps/db_app/views.py",
 		"/home/valentin/Documents/EGF/SynNP/synnpdb/synnpdb/templates/index.html",
@@ -501,14 +644,7 @@
 		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/modules_valentin/minimix/examples/example_typewriter-kb.py",
 		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/modules_valentin/minimix/examples/example_piano-kb.py",
 		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/modules_valentin/minimix/minimix/sound.py",
-		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/modules_valentin/minimix/minimix/minimix.py",
-		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/example.py",
-		"/home/valentin/Documents/Administratif/polemploi.txt",
-		"/home/valentin/Documents/EGF/prezs/2015-06-29/css/tweaks.css",
-		"/home/valentin/Documents/EGF/prezs/reveal.js-3.1.0/README.md",
-		"/home/valentin/Documents/EGF/userStory/web/Benchling · Better tools, faster research_fichiers/benchling.css",
-		"/home/valentin/Documents/EGF/prezs/2015-06-29/images/allqueues.png",
-		"/media/valentin/PENDRIVE/AAA_EGF/Echo Demo_JUL2014/Echo Data/Programs/JALA Revison/Gibson/2015-4-15/GibsonAssembly_Apr15_2015_Water.csv"
+		"/home/valentin/Documents/svgd_vieux_ordis/old/minimix/modules_valentin/minimix/minimix/minimix.py"
 	],
 	"find":
 	{
@@ -526,6 +662,11 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Gene",
+			"ico",
+			"related_fi",
+			"related",
+			"relate",
 			"template",
 			"spag",
 			"spag7",
@@ -600,7 +741,7 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 16,
 			"sheets":
 			[
 				{
@@ -630,7 +771,7 @@
 						"translation.y": 2603.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -658,7 +799,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
@@ -686,7 +827,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
@@ -695,95 +836,7 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1175,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								628,
-								628
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "synnpdb/static/css/registration.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 769,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								767,
-								767
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 648.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "synnpdb/templates/registration/registration_form.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1252,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1228,
-								1228
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 162.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "synnpdb/templates/registration/login.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2632,
+						"buffer_size": 1307,
 						"regions":
 						{
 						},
@@ -796,7 +849,37 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "synnpdb/static/css/registration.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 746,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
@@ -804,24 +887,54 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "synnpdb/templates/registration/logout.html",
-					"semi_transient": false,
+					"buffer": 5,
+					"file": "synnpdb/static/css/h5bp.css",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 392,
+						"buffer_size": 10159,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								88,
-								88
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "synnpdb/templates/registration/registration_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1572,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1420,
+								1420
 							]
 						],
 						"settings":
@@ -832,24 +945,230 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 18,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "synnpdb/apps/db_app/urls.py",
+					"buffer": 7,
+					"file": "synnpdb/templates/registration/login.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 169,
+						"buffer_size": 2978,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								39,
-								39
+								1236,
+								1236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 357.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 17,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "synnpdb/settings/local_settings.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 66,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								66,
+								66
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 22,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "install_requirements.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1262,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1236,
+								1236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 21,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "synnpdb/apps/db_app/management/commands/fixtures.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1873,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								553,
+								553
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 19,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "synnpdb/apps/db_app/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7191,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3021,
+								3021
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1428.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "synnpdb/settings/base.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4780,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								876,
+								876
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 306.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 20,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "synnpdb/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1806,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1658,
+								1658
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 16,
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "synnpdb/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 317,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37,
+								37
 							]
 						],
 						"settings":
@@ -860,63 +1179,330 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
-					"file": "synnpdb/urls.py",
+					"buffer": 15,
+					"file": "synnpdb/apps/db_app/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1564,
+						"buffer_size": 1933,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1511,
-								1511
+								1923,
+								1923
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 378.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/media/valentin/TOURO Mobile/valentin/SVGD_computer/2015_11_03/Python/Riffs/FXServer/app/bootstrap/bootstrap_ffmpeg.txt",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 330,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "synnpdb/apps/db_app/templates/table_base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1032,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								117,
+								117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "synnpdb/apps/db_app/templates/view_table.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								277,
+								277
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 19,
+					"file": "synnpdb/static/css/view_table.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 85,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								83,
+								83
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 20,
+					"file": "synnpdb/apps/db_app/templates/table_parts.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 456,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								456,
+								456
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "synnpdb/apps/db_app/templates/table_compounds.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								135,
+								135
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 8,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
-					"file": "synnpdb/views.py",
+					"buffer": 22,
+					"file": "synnpdb/apps/db_app/templates/table_pathways.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 315,
+						"buffer_size": 1002,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								315,
-								315
+								787,
+								787
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 51.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "synnpdb/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6782,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4325,
+								4325
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 663.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "synnpdb/apps/db_app/templates/demo_spreadsheet.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								437,
+								437
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "synnpdb/apps/db_app/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 356,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								352,
+								352
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
 					"type": "text"
 				}
 			]
@@ -924,7 +1510,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 25.0
 	},
 	"input":
 	{
@@ -961,7 +1547,7 @@
 	"project": "synnpdb.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 46.0
 	},
 	"save_all_on_build": true,
 	"select_file":

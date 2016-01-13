@@ -1,0 +1,12 @@
+{% extends "table_base.html" %}
+
+{% block page_title %}SynNP - DNA Parts{% endblock %}
+{% block page_headtitle %}DNA Parts{% endblock %}
+
+{% block model %}DNAPart{% endblock %}
+{% block fields %}id,name,type{% endblock %}
+{% block table_headers %}
+             <th data-field="id" data-sortable="true">ID</th>
+             <th data-field="name" data-sortable="true">Name</th>
+             <th data-field="type" data-sortable="true">Type</th>
+{% endblock %}

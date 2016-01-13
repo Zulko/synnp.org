@@ -1,0 +1,11 @@
+{% extends "table_base.html" %}
+
+{% block page_title %}SynNP - Compound{% endblock %}
+{% block page_headtitle %}Compound{% endblock %}
+
+{% block model %}Compound{% endblock %}
+{% block fields %}id,name{% endblock %}
+{% block table_headers %}
+             <th data-field="id" data-sortable="true">ID</th>
+             <th data-field="name" data-sortable="true">Name</th>
+{% endblock %}

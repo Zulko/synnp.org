@@ -4,17 +4,17 @@
 
 
 
-{% block page_title %}SynNP - Pathways{% endblock %}
+{% block page_title %}SynNP{% endblock %}
+
 {% block content %}
 
-
 <div class="container">
-    <h3>Pathways</h3>
+
+    <h3>{% block page_headtitle %}SynNP - Pathways{% endblock %}</h3>
 
 
     <table id="table"
                data-toggle="table"
-
                data-pagination="true"
                data-sort-name="name"
                data-search="true"
@@ -27,20 +27,15 @@
                data-cookie="true"
                data-show-export="true"
                data-sort-order="desc"
-               data-url="/autotable?model=DNAPart&fields=name,type"
-               >
+               data-url="/autotable?model={% block model %}{% endblock %}&fields={% block fields %}{% endblock %}"
+            >
             <thead>
             <tr>
-                <th data-field="name" data-sortable="true">Item Name</th>
-                <th data-field="type" data-sortable="true">Type</th>
+            {% block table_headers %} {% endblock %}
             </tr>
             </thead>
       </table>
-      <a href="/edit_pathway" class="btn btn-primary"> Add a new pathway </a>
 </div>
 
 
-
 {% endblock %}
-
-{% static 'js/dummydata/test.js' %}"

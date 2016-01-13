@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% load staticfiles %}
+
+{% block header %}
+<link href="{% static "css/view_table.css" %}" rel="stylesheet" type="text/css">
+{% endblock %}
+
+{% block page_title %}SynNP{% endblock %}
+
+{% block content %}
+
+<div class="container">
+
+<h3>{{ title }}</h3>
+
+{{ table | safe }}
+</div>
+
+{% endblock %}

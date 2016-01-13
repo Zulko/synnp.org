@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+
+
+{% load staticfiles %}
+{% block header %}
+	<script src="{% static 'handsontable/dist/handsontable.full.js' %}"></script>
+	<link rel="stylesheet" media="screen" href="{% static 'handsontable/dist/handsontable.full.css' %}">
+{% endblock %}
+
+{% block page_title %}SynNP - Demo Spreadsheet{% endblock %}
+
+{% block content %}
+
+
+<div class="container">
+
+<h3>Demo imput spreadsheet</h3>
+<div id="example"></div><br />
+<a href="/edit_pathway" class="btn btn-primary"> Add oligos to database </a>
+
+<script>
+  var data = [
+    ["mtl_201a", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201b", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201c", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201a", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201b", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201c", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201a", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201b", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201c", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201a", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201b", "ATTGTGCGTGTGTGTG", "01/2016"],
+    ["mtl_201c", "ATTGTGCGTGTGTGTG", "01/2016"],
+  ];
+
+var container = document.getElementById('example');
+var hot = new Handsontable(container,
+ {
+   data: data,
+   colHeaders: ["Name", "Sequence", "Ordering Batch"]
+  });
+</script>
+
+</div>
+
+
+
+{% endblock %}
+
+
+

@@ -5,6 +5,9 @@ import views
 
 urlpatterns = patterns(
     '',
-    url(r'^pathways/', views.pathways),
-    url(r'^autotable/', views.autotable)
+    url(r'^parts/', views.parts),
+    url(r'^compounds/', views.compounds),
+    url(r'^autotable/', views.autotable),
+    url(r'^demo_spreadsheet/', views.demo_spreadsheet),
+    url(r'^display_object/', views.display_object)
 )

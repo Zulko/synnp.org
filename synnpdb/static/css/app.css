@@ -36,22 +36,22 @@ iframe {
 
 .jumbotron {
     font-family: "Raleway", "Helvetica Neue";
-    background-image: url("../img/jumbotron3.png");
+    background-image: url("../img/jumbotron3b.png");
     background-size: cover;
 
 }
 
 
 .btn-more {
-    background-color: #70981a;
-    box-shadow: 0 3px 0 0 #86b51f;
-    border: 1px #86b51f;
+    background-color: #428bca;
+    box-shadow: 0 3px 0 0 #1b476d;
+    border: 1px #165d9a;
 }
 
 .btn-more:hover,
 .btn-more:focus,
 .btn-more:active {
-    background-color: #77a909;
+    background-color: #6aaee8;
 }
 
 
