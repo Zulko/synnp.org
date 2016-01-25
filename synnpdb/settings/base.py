@@ -40,9 +40,10 @@ INSTALLED_APPS = [
     'compressor',
     'registration',
     #'fixture_generator',
+    'crispy_forms',
+    'django_summernote',
     'django_spaghetti',
-
-    # local apps
+    'bootstrapform',
     'synnpdb.apps.db_app',
 ]
 
@@ -100,7 +101,7 @@ WSGI_APPLICATION = 'synnpdb.wsgi.application'
 
 DATABASES = {
     'default': {
-    # TODO: 'ENGINE': django.db.backends.postgresql_psycopg2
+        # TODO: 'ENGINE': django.db.backends.postgresql_psycopg2
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
@@ -162,6 +163,8 @@ LOGOUT_REDIRECT_URL = 'auth_login'
 
 # Django Spaghetti settings (database viewer app)
 SPAGHETTI_SAUCE = {
-  'apps':['db_app','auth'],
-  'show_fields':False
+    'apps': ['db_app', 'auth'],
+    'show_fields': False
 }
+
+CRISPY_TEMPLATE_PACK = 'bootstrap3'

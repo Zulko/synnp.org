@@ -24,9 +24,8 @@
 
   {# use the CDN to get bootstrap css. can not be inside compress css block #}
   {% block cdn_css %}
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
-
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
 
 
   {# The awesome Bootstrap-table and its exports #}
@@ -52,6 +51,15 @@
   {% compress js %}
   <script src="{% static 'js/libs/modernizr-2.6.2-respond-1.1.0.min.js' %}"></script>
   {% endcompress %}
+
+
+  {% block moreheaders %}
+  {% endblock %}
+
+  <!-- include summernote css/js>
+  <link href="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.3/summernote.css" rel="stylesheet">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/summernote/0.7.3/summernote.js"></script-->
+
 </head>
 <body class="{% block body_class %}{% endblock %}" {% block body_attributes %}{% endblock %}>
 {% block body %}
@@ -88,8 +96,10 @@
             <li><a href="/compounds/">Compounds</a></li>
             <li><a href="/parts/">Parts</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="/db_view">DB Plan</a></li>
             <li><a href="/demo_spreadsheet">Demo spreadsheet</a></li>
+            <li><a href="/demo_form">Demo form</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="/db_view">DB Plan</a></li>
           </ul>
         </li>
       </ul>
@@ -137,9 +147,8 @@
 
   <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
   {% block cdn_js %}
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="{{ STATIC_URL }}js/libs/jquery-2.1.1.min.js"><\/script>')</script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <!--script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script-->
+  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
   {% endblock cdn_js %}
 
   <!-- scripts concatenated and minified via django-compressor -->

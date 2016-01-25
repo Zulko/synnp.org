@@ -248,13 +248,10 @@
 			}
 		},
 		{
-			"contents": "{% extends \"base.html\" %}\n\n\n{% block page_title %}SynNP - DB Plan{% endblock %}\n\n{% block content %}\n<!-- This code is taken from http://getbootstrap.com/examples/jumbotron/ -->\n\n<div class = \"container\">\n<h1>Plan of the SynNP database</h1>\n<p>Hover any item for more details.</p>\n<iframe class=\"db_view_iframe\" src=\"/plate\"></iframe>\n</div>\n\n{% endblock %}\n",
-			"file": "synnpdb/apps/db_app/templates/db_view.html",
-			"file_size": 358,
-			"file_write_time": 130948396180412161,
+			"file": "synnpdb/apps/db_app/validators.py",
 			"settings":
 			{
-				"buffer_size": 358,
+				"buffer_size": 151,
 				"line_ending": "Unix"
 			}
 		},
@@ -295,6 +292,14 @@
 			"settings":
 			{
 				"buffer_size": 399,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/valentin/Downloads/baa/untitled.html",
+			"settings":
+			{
+				"buffer_size": 932,
 				"line_ending": "Unix"
 			}
 		},
@@ -350,7 +355,31 @@
 			"file": "synnpdb/apps/db_app/models.py",
 			"settings":
 			{
-				"buffer_size": 7191,
+				"buffer_size": 7453,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/forms.py",
+			"settings":
+			{
+				"buffer_size": 1863,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/valentin/Downloads/SynNP - Pathways.html",
+			"settings":
+			{
+				"buffer_size": 7736,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "synnpdb/apps/db_app/templates/assay_form.html",
+			"settings":
+			{
+				"buffer_size": 983,
 				"line_ending": "Unix"
 			}
 		},
@@ -358,7 +387,7 @@
 			"file": "synnpdb/urls.py",
 			"settings":
 			{
-				"buffer_size": 1806,
+				"buffer_size": 1917,
 				"line_ending": "Unix"
 			}
 		},
@@ -374,7 +403,7 @@
 			"file": "synnpdb/apps/db_app/views.py",
 			"settings":
 			{
-				"buffer_size": 1933,
+				"buffer_size": 2086,
 				"line_ending": "Unix"
 			}
 		},
@@ -382,7 +411,7 @@
 			"file": "synnpdb/functional_tests/functional_tests.py",
 			"settings":
 			{
-				"buffer_size": 132,
+				"buffer_size": 133,
 				"line_ending": "Unix"
 			}
 		},
@@ -403,22 +432,6 @@
 			}
 		},
 		{
-			"file": "synnpdb/static/css/view_table.css",
-			"settings":
-			{
-				"buffer_size": 85,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "synnpdb/apps/db_app/templates/table_parts.html",
-			"settings":
-			{
-				"buffer_size": 456,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "synnpdb/apps/db_app/templates/table_compounds.html",
 			"settings":
 			{
@@ -427,10 +440,10 @@
 			}
 		},
 		{
-			"file": "synnpdb/apps/db_app/templates/table_pathways.html",
+			"file": "synnpdb/settings/base.py",
 			"settings":
 			{
-				"buffer_size": 1002,
+				"buffer_size": 4877,
 				"line_ending": "Unix"
 			}
 		},
@@ -438,23 +451,23 @@
 			"file": "synnpdb/templates/base.html",
 			"settings":
 			{
-				"buffer_size": 6782,
+				"buffer_size": 6939,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "synnpdb/apps/db_app/templates/demo_spreadsheet.html",
+			"file": "/home/valentin/Documents/EGF/prezs/presentations_server/EGF_monday_meeting_2016-01-24/index.html",
 			"settings":
 			{
-				"buffer_size": 1342,
+				"buffer_size": 5905,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "synnpdb/apps/db_app/urls.py",
+			"file": "/home/valentin/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
 			"settings":
 			{
-				"buffer_size": 356,
+				"buffer_size": 117,
 				"line_ending": "Unix"
 			}
 		}
@@ -466,10 +479,18 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 87.0,
-		"last_filter": "insta",
+		"height": 96.0,
+		"last_filter": "add re",
 		"selected_items":
 		[
+			[
+				"add re",
+				"Package Control: Add Repository"
+			],
+			[
+				"auto",
+				"Anaconda: Autoformat PEP8 Errors"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -487,7 +508,7 @@
 				"Package Control: Enable Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -526,6 +547,16 @@
 	],
 	"file_history":
 	[
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/urls.py",
+		"/home/valentin/Documents/EGF/prezs/server/2016-25-01-SynNP-website/index.html",
+		"/home/valentin/Documents/EGF/prezs/server/2016-25-01-SynNP-website/package.json",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/db_view.html",
+		"/home/valentin/Downloads/django-summernote/django_summernote/static/django_summernote/summernote.min.js",
+		"/home/valentin/Downloads/django-summernote/django_summernote/static/django_summernote/summernote.min.js.bkp",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/static/css/view_table.css",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/table_parts.html",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/demo_spreadsheet.html",
+		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/table_pathways.html",
 		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/settings/base.py",
 		"/home/valentin/Documents/EGF/autodesk/tdd/book-example/deploy_tools/provisioning_notes.md",
 		"/home/valentin/Documents/EGF/autodesk/tdd/book-example/deploy_tools/fabfile.py",
@@ -535,8 +566,6 @@
 		"/media/valentin/TOURO Mobile/valentin/SVGD_computer/2015_11_03/Python/Riffs/FXServer/app/bootstrap/bootstrap_ffmpeg.txt",
 		"/home/valentin/Documents/EGF/ChristineMerrick/svgdMac/SARI/SARI/SARIapp/views.py",
 		"/home/valentin/Documents/EGF/ChristineMerrick/svgdMac/SARI/SARI/SARIapp/forms.py",
-		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/templates/table_pathways.html",
-		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/apps/db_app/urls.py",
 		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/registration/logout.html",
 		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/registration/login.html",
 		"/home/valentin/Documents/EGF/SynNP/SynNPwebsite/synnpdb/templates/base.html",
@@ -645,15 +674,7 @@
 		"/tmp/pyschedule-0.2.tar.gz",
 		"/tmp/HS1204042.zip",
 		"/tmp/pyschedule-0.2.tar-1.gz",
-		"/home/valentin/Téléchargements/atom.x86_64.rpm",
-		"/media/valentin/PUBLIC/2015-06-29/Biomek.txt",
-		"/run/user/1000/gvfs/mtp:host=%5Busb%3A001%2C012%5D/Mémoire de stockage interne/.AsusSuperNote/Data/1431035600223/1431035600260/editor.info",
-		"/home/valentin/Documents/EGF/userStory/web/Benchling · Better tools, faster research.html",
-		"/home/valentin/Documents/EGF/CAM/toyCAM/musings/modtest.py",
-		"/home/valentin/Documents/EGF/CAM/toyCAM/toycam/watchers.py",
-		"/home/valentin/Documents/svgd_vieux_ordis/ordiMaison/Riffsy/FXServer/app/bootstrap/bootstrap.txt",
-		"/home/valentin/Documents/Python/Moviepy/swirly/swirly/swirl.py",
-		"/home/valentin/Documents/Python/Minimix/minimix/minimix.py"
+		"/home/valentin/Téléchargements/atom.x86_64.rpm"
 	],
 	"find":
 	{
@@ -671,6 +692,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"packag",
+			"%}",
+			"bootstr",
+			"jquer",
+			"summern",
+			"space",
+			"iframe",
+			"summernot",
+			"summer",
+			"tiny",
 			"test",
 			"Gene",
 			"ico",
@@ -751,7 +782,7 @@
 	"groups":
 	[
 		{
-			"selected": 17,
+			"selected": 26,
 			"sheets":
 			[
 				{
@@ -778,38 +809,38 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2603.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 26,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "synnpdb/apps/db_app/templates/db_view.html",
-					"semi_transient": false,
+					"file": "synnpdb/apps/db_app/validators.py",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 358,
+						"buffer_size": 151,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								268,
-								268
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 25,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -837,7 +868,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 24,
+					"stack_index": 28,
 					"type": "text"
 				},
 				{
@@ -867,7 +898,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 5,
+					"stack_index": 6,
 					"type": "text"
 				},
 				{
@@ -895,7 +926,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 26,
 					"type": "text"
 				},
 				{
@@ -923,7 +954,7 @@
 						"translation.y": 34.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 8,
+					"stack_index": 25,
 					"type": "text"
 				},
 				{
@@ -951,11 +982,41 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 7,
+					"stack_index": 24,
 					"type": "text"
 				},
 				{
 					"buffer": 7,
+					"file": "/home/valentin/Downloads/baa/untitled.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								670,
+								670
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
 					"file": "synnpdb/static/css/registration.css",
 					"semi_transient": false,
 					"settings":
@@ -981,11 +1042,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 19,
+					"stack_index": 27,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
+					"buffer": 9,
 					"file": "synnpdb/templates/registration/registration_form.html",
 					"semi_transient": false,
 					"settings":
@@ -1011,11 +1072,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 21,
+					"stack_index": 20,
 					"type": "text"
 				},
 				{
-					"buffer": 9,
+					"buffer": 10,
 					"file": "synnpdb/templates/registration/login.html",
 					"semi_transient": false,
 					"settings":
@@ -1038,14 +1099,14 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 357.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 20,
+					"stack_index": 23,
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "synnpdb/settings/local_settings.py",
 					"semi_transient": false,
 					"settings":
@@ -1069,11 +1130,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 23,
+					"stack_index": 22,
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "install_requirements.sh",
 					"semi_transient": false,
 					"settings":
@@ -1097,11 +1158,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 22,
+					"stack_index": 21,
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "synnpdb/apps/db_app/management/commands/fixtures.py",
 					"semi_transient": false,
 					"settings":
@@ -1127,24 +1188,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 14,
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "synnpdb/apps/db_app/models.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7191,
+						"buffer_size": 7453,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3418,
-								3418
+								6938,
+								6938
 							]
 						],
 						"settings":
@@ -1154,27 +1215,119 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1020.0,
+						"translation.y": 2971.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 11,
 					"type": "text"
 				},
 				{
-					"buffer": 14,
-					"file": "synnpdb/urls.py",
+					"buffer": 15,
+					"file": "synnpdb/apps/db_app/forms.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1806,
+						"buffer_size": 1863,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1658,
-								1658
+								1203,
+								1203
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/home/valentin/Downloads/SynNP - Pathways.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7736,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4959,
+								4959
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2036.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 18,
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"file": "synnpdb/apps/db_app/templates/assay_form.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								78,
+								78
+							]
+						],
+						"settings":
+						{
+							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "synnpdb/urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1917,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1419,
+								1419
 							]
 						],
 						"settings":
@@ -1187,11 +1340,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 13,
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 19,
 					"file": "synnpdb/views.py",
 					"semi_transient": false,
 					"settings":
@@ -1215,24 +1368,24 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 17,
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 20,
 					"file": "synnpdb/apps/db_app/views.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1933,
+						"buffer_size": 2086,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								302,
-								302
+								2073,
+								2073
 							]
 						],
 						"settings":
@@ -1242,27 +1395,27 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 63.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 16,
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 21,
 					"file": "synnpdb/functional_tests/functional_tests.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 132,
+						"buffer_size": 133,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								132,
-								132
+								133,
+								133
 							]
 						],
 						"settings":
@@ -1273,11 +1426,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 10,
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 22,
 					"file": "synnpdb/apps/db_app/templates/table_base.html",
 					"semi_transient": false,
 					"settings":
@@ -1303,11 +1456,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 15,
+					"stack_index": 9,
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 23,
 					"file": "synnpdb/apps/db_app/templates/view_table.html",
 					"semi_transient": false,
 					"settings":
@@ -1319,8 +1472,8 @@
 						"selection":
 						[
 							[
-								277,
-								277
+								51,
+								51
 							]
 						],
 						"settings":
@@ -1334,71 +1487,11 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 10,
+					"stack_index": 19,
 					"type": "text"
 				},
 				{
-					"buffer": 20,
-					"file": "synnpdb/static/css/view_table.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 85,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								83,
-								83
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 21,
-					"file": "synnpdb/apps/db_app/templates/table_parts.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 456,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								456,
-								456
-							]
-						],
-						"settings":
-						{
-							"open_with_edit": true,
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 14,
-					"type": "text"
-				},
-				{
-					"buffer": 22,
+					"buffer": 24,
 					"file": "synnpdb/apps/db_app/templates/table_compounds.html",
 					"semi_transient": false,
 					"settings":
@@ -1410,8 +1503,8 @@
 						"selection":
 						[
 							[
-								135,
-								135
+								384,
+								384
 							]
 						],
 						"settings":
@@ -1423,89 +1516,58 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 16,
-					"type": "text"
-				},
-				{
-					"buffer": 23,
-					"file": "synnpdb/apps/db_app/templates/table_pathways.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1002,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								787,
-								787
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 3,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 51.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 17,
-					"type": "text"
-				},
-				{
-					"buffer": 24,
-					"file": "synnpdb/templates/base.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6782,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4325,
-								4325
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 663.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 18,
+					"stack_index": 15,
 					"type": "text"
 				},
 				{
 					"buffer": 25,
-					"file": "synnpdb/apps/db_app/templates/demo_spreadsheet.html",
+					"file": "synnpdb/settings/base.py",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1342,
+						"buffer_size": 4877,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								437,
-								437
+								3171,
+								3171
 							]
 						],
 						"settings":
 						{
-							"open_with_edit": true,
+							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1679.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "synnpdb/templates/base.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6939,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6202,
+								6202
+							]
+						],
+						"settings":
+						{
 							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
@@ -1514,35 +1576,63 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 12,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 26,
-					"file": "synnpdb/apps/db_app/urls.py",
+					"buffer": 27,
+					"file": "/home/valentin/Documents/EGF/prezs/presentations_server/EGF_monday_meeting_2016-01-24/index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 356,
+						"buffer_size": 5905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								352,
-								352
+								1532,
+								1532
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Djaneiro/Syntaxes/Python Django.tmLanguage"
+							"syntax": "Packages/Djaneiro/Syntaxes/HTML (Django).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 13,
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "/home/valentin/.config/sublime-text-3/Packages/LiveReload/LiveReload.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 117,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								114,
+								114
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -1596,6 +1686,30 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"unti",
+				"~/Downloads/baa/untitled.html"
+			],
+			[
+				"assay",
+				"synnpdb/apps/db_app/templates/assay_form.html"
+			],
+			[
+				"",
+				"~/Downloads/baa/untitled.html"
+			],
+			[
+				"ass",
+				"synnpdb/apps/db_app/templates/assay_form.html"
+			],
+			[
+				"base",
+				"synnpdb/templates/base.html"
+			],
+			[
+				"un",
+				"~/Downloads/baa/untitled.html"
+			]
 		],
 		"width": 0.0
 	},

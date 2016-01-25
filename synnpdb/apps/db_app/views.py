@@ -71,3 +71,11 @@ def display_object(request):
     	    "table":table,
     	    "title": obj.__dict__.get("name", "Object")
     	 })
+
+
+from forms import AssayForm
+def demo_form(request):
+    return render(request, 'assay_form.html',
+        {
+            "form": AssayForm()
+         })

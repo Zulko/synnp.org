@@ -39,6 +39,9 @@ urlpatterns = [
         name='registration_register'),
     url(r'^db_view/', synnpdb.views.db_view, name='db_view'),
     url(r'^plate/', include('django_spaghetti.urls')),
+    url(r'^summernote/', include('django_summernote.urls')),
+    #url(r'^tinymce/', include('tinymce.urls')),
+
     url(
         r'^favicon.ico$',
         RedirectView.as_view(

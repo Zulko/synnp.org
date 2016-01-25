@@ -235,8 +235,17 @@ class Assay(models.Model):
         Strain,
         help_text="Strain on which the assay was made."
     )
+
+    author = models.ForeignKey(
+         LabMember,
+         help_text="Principal author of the experiment."
+    )
     results_summary = models.CharField(
-        u'Results summary', max_length=1000,
+        u'Results summary', max_length=10000,
+        help_text="Quick summary of what was found in the assay."
+    )
+    content = models.CharField(
+        u'Content', max_length=1000000,
         help_text="Quick summary of what was found in the assay."
     )
 
